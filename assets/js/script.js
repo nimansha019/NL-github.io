@@ -56,17 +56,17 @@ $(document).ready(function () {
 
 });
 
-//document.addEventListener('visibilitychange',
-   // function () {
-      //  if (document.visibilityState === "visible") {
-            //document.title = "Portfolio | Nimansha Lakvindi";
-           // $("#favicon").attr("href", "assets/images/saree.png");
-       // }
-        //else {
-           // document.title = "Come Back To Portfolio";
-            //$("#favicon").attr("href", "assets/images/saree.png");
-       // }
-  //  });
+document.addEventListener('visibilitychange',
+   function () {
+       if (document.visibilityState === "visible") {
+            document.title = "Portfolio | Nimansha Lakvindi";
+            $("#favicon").attr("href", "assets/images/saree.png");
+        }
+        else {
+           document.title = "Come Back To Portfolio";
+            $("#favicon").attr("href", "assets/images/saree.png");
+        }
+   });
 
 
 // <!-- typed js effect starts -->
